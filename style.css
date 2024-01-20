@@ -1,0 +1,250 @@
+/* body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #fbeaebcf;
+    /* font-family: 'Inter', sans-serif;
+font-family: 'Kalam', cursive; */
+
+:root {
+
+    --main-color: #2F3C7E;
+    --main-second-color: #FBEAEB;
+    --main-light-color: #7782B8;
+}
+
+.bg-main {
+    height: 400px !important;
+    background-color: var(--main-color);
+}
+
+.banner-text h1 {
+    font-size: 60px;
+    font-family: 'Kalam', cursive;
+    color: #fff;
+}
+
+.banner-text .span-text {
+    margin-left: 150px;
+    color: #fff;
+    font-size: 0.85rem;
+    font-family: 'Kalam', cursive;
+}
+
+.paragraph-text {
+    font-size: 0.85rem;
+    font-family: 'Inter', sans-serif;
+    color: var(--main-color) !important;
+}
+
+.bg-main-cameraman {
+    height: 486px !important;
+    background-color: var(--main-color);
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 480px;
+}
+
+.self-img {
+    position: absolute;
+    height: 350px;
+    right: -31px;
+}
+
+.right-content h6 {
+    font-size: 1.5rem;
+}
+
+.right-content p {
+    font-size: 1rem;
+}
+
+.page-heading {
+    background-color: var(--main-light-color);
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+body {
+    /* background: #F8F0E5; */
+    background: #F8F0E5;
+    background-color: #F8F0E5;
+    margin: 0;
+    padding: 0px;
+    color: white;
+    /* font-family: 'Agbalumo', sans-serif; */
+    height: 100%;
+    color: #3F2305 !important;
+    overflow-x: hidden;
+    font-family: 'Inter', sans-serif;
+    /* font-family: 'Playfair Display', serif; */
+}
+
+.home-cara {
+    height: 450px;
+}
+
+.navbar-nav .nav-item {
+    color: #3F2305 !important;
+    background-color: transparent;
+
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #3F2305;
+    transition: all ease 1s;
+    padding-bottom: 5px;
+    transition-timing-function: ease-in-out;
+    transition: ease-in-out 2s;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #000000 !important;
+    transition: all ease 1s;
+    border-bottom: 1px solid black !important;
+    padding-bottom: 5px;
+    transition: ease-in-out 2s;
+}
+
+.home-cara .carousel-item img {
+    background-position: center;
+    background-size: cover;
+}
+.photographer-section .card-title,
+.photographer-content {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+}
+
+.vinod-gundla h4 {
+    border-bottom: 1px solid #2F3C7E;
+    ;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+.essay {
+    font-family: 'inter', sans-serif;
+}
+
+.under-essay-img-home {
+    height: 500px !important;
+    object-fit: contain;
+    object-position: center !important;
+}
+
+.photographer-section .card p {
+    font-family: 'inter', sans-serif;
+}
+
+.photographer-section .card {
+    overflow: hidden;
+    transition: all ease 1s;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/* .photographer-section .card img:hover .card-body, */
+/* .photographer-section .card :not(.card-footer):hover{ */
+/* .photographer-section .card :hover{
+   background-color: #c2c8e8;
+    transition: all ease 1s;
+} */
+.photographer-section .card:hover img {
+    scale: 1.2;
+    /* overflow: hidden; */
+    transition: all ease 1s;
+}
+
+/* {
+    background-color: #d9b083;
+    transition: all ease 1s;
+} */
+.our-work span {
+        font-family: 'Playfair Display', serif;
+    border-bottom: 1px solid #2F3C7E;
+    padding-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+.btn-main {
+    background-color: #2F3C7E;
+    color: white;
+}
+
+.btn-contact {
+    background-color: #2F3C7E;
+    color: white;
+    width: 225px;
+    border-radius: 25px;
+}
+
+.social-btn {
+    background-color: white;
+    color: #2F3C7E;
+    border: none;
+    border-radius: 50%;
+}
+
+.btn-contact:hover {
+    background-color: #c2c8e8;
+    color: #2F3C7E;
+    width: 225px;
+    border-radius: 25px;
+}
+
+.footer {
+    background-color: #2F3C7E;
+    padding: 10px;
+}
+
+.why-chose-us span {
+    font-family: 'inter', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    border-bottom: 1px solid #c2c8e8;
+    padding-bottom: 10px;
+}
+
+.why-chose-us-content .card {
+    padding: 20px;
+    background-color: #c2c8e8;
+    color: #2F3C7E;
+    font-family: 'inter', sans-serif;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.why-chose-us-content h5 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+}
+
+/* .cara-img{
+    height:700px !important;
+    object-fit: cover !important;
+    object-position: center  !important;
+} */
+
+
+/* .item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 300px;
+      object-fit: cover;
+      object-position: center;
+  } */
+
+/* 1296 width 270 heigt */
+/* .carousel .carousel-inner .carousel-item img{
+    height: 72vh; 
+    object-fit: cover !important;
+    object-position: center !important;
+    background-position: center;
+    background-size: cover;
+  } */
