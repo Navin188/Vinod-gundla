@@ -133,7 +133,7 @@ body {
 
 .under-essay-img-home {
     height: 500px !important;
-    object-fit: contain;
+    object-fit: cover;
     object-position: center !important;
 }
 
@@ -248,3 +248,8 @@ body {
     background-position: center;
     background-size: cover;
   } */
+.under-essay-img-home-half{
+    height: 240px !important;
+    object-fit: cover;
+    object-position: center !important;
+}
